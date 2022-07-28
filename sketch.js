@@ -38,7 +38,7 @@ function preload(){
 function setup() {
 createCanvas(windowWidth, windowHeight);
 button = createButton('확인');
-button.position(400, 600);
+button.position(600, 700);
 init();
 }
 
@@ -85,7 +85,7 @@ function draw() {
 
 function display() {
   //배너
-  strokeWeight(1)
+  strokeWeight(3)
   rect(0, 0, 421, 630);
   fill(100, 165, 240);
   noStroke();
