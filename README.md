@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -47,7 +46,6 @@ button {
 
   transition: 0.5s;
 }
-
 
   </style>
   <script src="p5.js"></script>
