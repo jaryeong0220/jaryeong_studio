@@ -232,7 +232,7 @@ function mousePressed() {
 
   function init() {
     for(let i = 0; i < imgIndex.length; i++) {
-      imgIndex[i] = round(random(5));
+      imgIndex[i] = round(random(4))
     }
     console.log(imgIndex);
   }
