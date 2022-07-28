@@ -1,37 +1,61 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/jaryeong0220/jaryeong_studio/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>p5.js example</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
-### Markdown
+:root {
+  --button-color: #ffffff;
+  --button-bg-color: #64a1fc;
+  --button-hover-bg-color: #64a1fc;
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 
-```markdown
-Syntax highlighted code block
+  background: var(--button-bg-color);
+  color: var(--button-color);
 
-# Header 1
-## Header 2
-### Header 3
+  margin: 0;
+  padding: 0.5rem 1rem;
 
-- Bulleted
-- List
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
 
-1. Numbered
-2. List
+  border: none;
+  border-radius: 4px;
 
-**Bold** and _Italic_ and `Code` text
+  display: inline-block;
+  width: auto;
+  width: 85px;
 
-[Link](url) and ![Image](src)
-```
+  cursor: pointer;
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+  transition: 0.5s;
+}
 
-### Jekyll Themes
+  </style>
+  <script src="p5.js"></script>
+  <script src="sketch.js"></script>
+</head>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jaryeong0220/jaryeong_studio/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<body>
+  <main>
+  </main>
+</body>
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
