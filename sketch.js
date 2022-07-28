@@ -38,12 +38,12 @@ function preload(){
 function setup() {
 createCanvas(windowWidth, windowHeight);
 button = createButton('확인');
-button.position(320, 565);
+button.position(400, 600);
 init();
 }
 
 function draw() {
-  background(220);
+  background(255);
   fill(255);
   noStroke();
   display();
@@ -85,6 +85,7 @@ function draw() {
 
 function display() {
   //배너
+  strokeWeight(1)
   rect(0, 0, 421, 630);
   fill(100, 165, 240);
   noStroke();
