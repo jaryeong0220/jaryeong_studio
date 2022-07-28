@@ -38,7 +38,7 @@ function preload(){
 function setup() {
 createCanvas(windowWidth, windowHeight);
 button = createButton('확인');
-button.position(320, 565);
+button.position(800, 900);
 init();
 }
 
